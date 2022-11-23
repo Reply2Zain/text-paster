@@ -6,7 +6,7 @@ The program waits 7 seconds before typing the desired text. Use this time to foc
 ## How to run
 1. `npm install`
 2. `tsc` 
-3. `node index.js <TEXT TO EMIT>`
+3. `node dist/index.js <TEXT TO EMIT>`
 
 ### requirements
 
