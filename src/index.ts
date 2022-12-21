@@ -36,8 +36,8 @@ async function type(phrase: string) {
  * The main function.
  */
 async function main() {
-    console.log(`typing in ${READY_TIME_SEC} seconds...`);
-    console.log('content:\n', `${text}`);
+    console.log(`typing in ${READY_TIME_SEC} seconds...\nfocus on the text-box where you want the text to be pasted`);
+    console.log(`content:\n${text}`);
     await type(text);
     await new Promise(res => setTimeout(res, WAIT_BEFORE_EXIT_MS));
     return null;
